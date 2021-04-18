@@ -7,7 +7,7 @@ class jual_beli:
   def Identitas_kelompok():
     print("Kelompok 35")
     print("Shift 2")
-    print("Eng....")
+    print("Engelbert Jubile Satrio Lukito 21120120140080")
     print("Muhammad Sulthon Auliya 21120120130047")
     print("Rafif ....")
   
