@@ -9,7 +9,7 @@ class jual_beli:
     print("Shift 2")
     print("Engelbert Jubile Satrio Lukito 21120120140080")
     print("Muhammad Sulthon Auliya 21120120130047")
-    print("Rafif ....")
+    print("Rafif Sadid Hamdani 21120120140137")
   
 #program main/untuk eksekusi
 objek=jual_beli()
