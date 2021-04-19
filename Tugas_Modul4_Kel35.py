@@ -16,29 +16,37 @@ objek=jual_beli()
 x="y"
   #perulangan berupa jumlah berapa kali transksi
 while(x=="y"):
-    #switch case pada python menggunakan array. sebagai datalist barang yang tersedia untuk pemilihan barang.
-  list_barang:{
-    1:"Buku tulis",
-    2:"Pensil",
-    3:"Bolpoin"
-    } 
-  pilihan=int(input("masukan pilihan anda"))
-  print("Barang yang tersedia: %s"%list_barang.set.default(pilihan, "pilih (1-3)"))
-  
-  if(pilihan==1):
-  
-  elif(pilihan==2):
+
+    #daftar barang
+    print("1:Buku tulis")
+    print("2:Pensil")
+    print("3:Bolpoin")
+
+    pilihan=int(input("masukan pilihan anda (1-3): "))
+    jumlah_barang=int(input("Masukan jumlah barang yang akan dibeli: "))
     
-  elif(pilihan==3):
+    harga1=objek.harga_total(3000, jumlah_barang)
+    harga2=objek.harga_total(2000, jumlah_barang)
+    harga3=objek.harga_total(3000, jumlah_barang)
+    harga_akhir=0
+
+    if pilihan==1:
+        print("Harga sementara : ", harga1)
+        harga_akhir=harga_akhir+harga1
+    elif pilihan==2:
+        print("Harga sementara : ", harga2)
+        harga_akhir=harga_akhir+harga2
+    elif pilihan==3:
+        print("Harga sementara : ", harga3)
+        harga_akhir=harga_akhir+harga3
+    else:
+        print("input anda salah")
+
+    x=input("Beli barang lain?(y=yes,selain itu dianggap no) ")  
   
-  else:
-    print("input salah")
-    
-  
-  
- 
-    
-  x=input("Beli barang lain?("y"=yes,selain itu dianggap no) ")   
+
+print("Jumlah uang yang harus anda bayar: ", harga_akhir)
+
   
   
 #penjelasan
