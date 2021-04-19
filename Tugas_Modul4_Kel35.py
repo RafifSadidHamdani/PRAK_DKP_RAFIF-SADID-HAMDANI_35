@@ -14,7 +14,7 @@ class jual_beli:
 #program main/untuk eksekusi
 objek=jual_beli()
 x="y"
-  #perulangan berupa jumlah berapa kali transksi
+#perulangan berupa jumlah berapa kali transksi
 while(x=="y"):
 
     #daftar barang
@@ -46,11 +46,3 @@ while(x=="y"):
   
 
 print("Jumlah uang yang harus anda bayar: ", harga_akhir)
-
-  
-  
-#penjelasan
-Program ini merupakan program sederhana yang berfungsi melakukan mekanisme perhitungan jual beli.
-disini dalam class yang bernama jual_beli, terdapat 2 fungsi method yaitu yang pertama adalah
-yang pertama adalah fungsi harga_total yang merupakan fungsi kembalian yang mengembalikan nilai dari parameternya
-yaitu mengembalikan operasi perkalian variabel harga_satuan dan jumlah_barang. selanjutnya merupakan fungsi identitas_kelompok yang akan mengeluarkan beberapa output.
