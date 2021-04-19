@@ -36,7 +36,7 @@ while(x=="y"):
     
   
   
-  
+ 
     
   x=input("Beli barang lain?("y"=yes,selain itu dianggap no) ")   
   
